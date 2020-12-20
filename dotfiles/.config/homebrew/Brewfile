@@ -1,0 +1,52 @@
+# Update homebrew
+# update
+
+# Update formulae
+# upgrade
+
+# Add repos
+# tap "homebrew/versions"
+# tap "homebrew/science"
+# tap "caskroom/homebre-cask"
+
+# Shell
+# brew "autojump"
+# brew "bash"
+# brew "bash-completion2"
+brew "zsh"
+brew "fish"
+
+# Other packages
+brew "vim"
+brew "neovim"
+brew "cmake"
+# brew "colordiff"
+# brew "coreutils"
+# brew "findutils"
+# brew "fontforge"
+# brew "gdal --enable-opencl"
+# brew "gfortran"
+# brew "git"
+# brew "git-now"
+# brew "gnu-sed"
+# brew "gnu-tar"
+# brew "grep --default-names"
+# brew "hdf5 --enable-parallel"
+# brew "libyaml"
+# brew "netcdf"
+# brew "python"
+# brew "python@3.8"
+brew "pyenv"
+# brew "poetry"
+# brew "reattach-to-user-namespace"
+# brew "rsync"
+brew "tig"
+brew "tmux"
+brew "tree"
+brew "fzf"
+brew "ghq"
+brew "node"
+# brew "asdf"
+# brew "webp"
+# brew "wget"
+# brew "zeromq"
