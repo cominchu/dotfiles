@@ -44,3 +44,8 @@ export RUSTUP_HOME="${XDG_DATA_HOME}/rustup"
 export CARGO_HOME="${XDG_DATA_HOME}/cargo"
 export RUST_BACKTRACE=1
 path=("${CARGO_HOME}/bin"(N-/) "${path[@]}")
+
+### alias ###
+alias g="git status"
+alias vi="nvim"
+alias vim="nvim"
