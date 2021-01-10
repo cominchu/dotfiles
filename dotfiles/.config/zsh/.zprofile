@@ -3,12 +3,12 @@ if (( ${+commands[brew]} )); then
     # Avoid the brew doctor warning: 'Putting non-prefixed hogehoge'
     alias brew="env PATH=${(j':')path_default[@]} brew"
 fi
-export HOMEBREW_PREFIX="${HOME}/.linuxbrew";
-export HOMEBREW_CELLAR="${HOME}/.linuxbrew/Cellar";
-export HOMEBREW_REPOSITORY="${HOME}/.linuxbrew/Homebrew";
-export PATH="${HOME}/.linuxbrew/bin:${HOME}/.linuxbrew/sbin${PATH+:$PATH}";
-export MANPATH="${HOME}/.linuxbrew/share/man${MANPATH+:$MANPATH}:";
-export INFOPATH="${HOME}/.linuxbrew/share/info:${INFOPATH:-}";
+# export HOMEBREW_PREFIX="${HOME}/.linuxbrew";
+# export HOMEBREW_CELLAR="${HOME}/.linuxbrew/Cellar";
+# export HOMEBREW_REPOSITORY="${HOME}/.linuxbrew/Homebrew";
+# export PATH="${HOME}/.linuxbrew/bin:${HOME}/.linuxbrew/sbin${PATH+:$PATH}";
+# export MANPATH="${HOME}/.linuxbrew/share/man${MANPATH+:$MANPATH}:";
+# export INFOPATH="${HOME}/.linuxbrew/share/info:${INFOPATH:-}";
 
 ### Docker ###
 export COMPOSE_DOCKER_CLI_BUILD=1
@@ -47,5 +47,3 @@ path=("${CARGO_HOME}/bin"(N-/) "${path[@]}")
 
 ### alias ###
 alias g="git status"
-alias vi="nvim"
-alias vim="nvim"

@@ -88,6 +88,13 @@ if (( ${+commands[fzf]} )); then
             )" &&
             command git checkout "${tag}"
     }
+    # select command from history
+    function select-history() {
+        BUFFER=$(history -n -r 1 | fzf --no-sort +m --query "$LBUFFER" --prompt="History > ")
+        CURSOR=$#BUFFER
+    }
+    zle -N select-history
+    bindkey "®" select-history # alt+r
 fi
 
 ### direnv ###
