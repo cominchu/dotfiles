@@ -27,7 +27,7 @@
     cmd = "nvim -d -c \"4wincmd w | wincmd J\" \"${LOCAL}\" \"${BASE}\" \"${REMOTE}\"  \"${MERGED}\""
 
 [commit]
-    gpgsign = true
+    gpgsign = false
     template = ~/.config/git/templates/gitmessage.txt
 
 [credential]
