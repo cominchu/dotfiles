@@ -1,3 +1,7 @@
+# Copyright (c) 2020 Shunsuke KITADA
+# This file is released under the MIT License, see LICENSE.
+# URL: https://github.com/shunk031/dotfiles/blob/master/LICENSE
+
 FROM ubuntu:18.04 as myenv
 ENV LANG en_US.UTF-8
 ENV TERM screen-256color
