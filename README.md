@@ -22,9 +22,9 @@ $ curl -sSfL https://raw.githubusercontent.com/cominchu/dotfiles/main/install.sh
 
 ## LICENSE
 
-This file and Dockerfile are under the MIT LISENCE.
-Copyright (c) 2020 Shunsuke KITADA
+This file and Dockerfile are under the MIT LISENCE.  
+Copyright (c) 2020 Shunsuke KITADA  
 See: https://github.com/shunk031/dotfiles/blob/master/LICENSE
 
-Other files are under the Do What The F*ck You Want To Public License.
+Other files are under the Do What The F*ck You Want To Public License.  
 See: https://github.com/cominchu/dotfiles/blob/main/LICENSE
