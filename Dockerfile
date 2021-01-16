@@ -1,5 +1,5 @@
 # Copyright (c) 2020 Shunsuke KITADA
-# This software is released under the MIT License, see LICENSE.
+# This file is released under the MIT License, see LICENSE.
 # URL: https://github.com/shunk031/dotfiles/blob/master/LICENSE
 
 FROM ubuntu:18.04 as myenv
