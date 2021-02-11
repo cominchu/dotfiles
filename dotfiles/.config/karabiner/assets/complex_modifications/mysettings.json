@@ -29,6 +29,33 @@
             ]
         },
         {
+            "description": "Change left_option + d to escape only if pressed at the same time. and toggle to english",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "d",
+                        "modifiers": {
+                            "mandatory": [
+                                "left_option"
+                            ],
+                            "optional": [
+                                "shift"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "escape"
+                        },
+                        {
+                            "key_code": "japanese_eisuu"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "description": "Change alt + c to control + c ",
             "manipulators": [
                 {
