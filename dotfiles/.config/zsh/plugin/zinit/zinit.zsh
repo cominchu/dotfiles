@@ -6,7 +6,8 @@ ZINIT[HOME_DIR]="${XDG_DATA_HOME}/zsh/plugin/zinit"
 # Auto install
 if [[ ! -f "${ZINIT[HOME_DIR]}/bin/zinit.zsh" ]]; then
     echo 'Install Zinit'
-    command git clone 'https://github.com/zdharma/zinit' "${ZINIT[HOME_DIR]}/bin"
+    # command git clone 'https://github.com/zdharma/zinit' "${ZINIT[HOME_DIR]}/bin"
+    command git clone 'https://github.com/zdharma-continuum/zinit' "${ZINIT[HOME_DIR]}/bin"
     . "${ZINIT[HOME_DIR]}/bin/zinit.zsh"
     zinit self-update
 fi
@@ -31,7 +32,7 @@ zinit ice wait='0' lucid \
         fast-theme -q XDG:solarized-dark
     ' \
     atinit='zicompinit; zicdreplay'
-zinit light 'zdharma/fast-syntax-highlighting'
+zinit light 'zdharma-continuum/fast-syntax-highlighting'
 
 zinit ice wait='0' lucid \
     pick='zsh-history-substring-search.zsh' \
@@ -108,4 +109,4 @@ zinit light mollifier/cd-gitroot
 
 zinit ice wait='0' lucid \
     atinit='. "$ZDOTDIR/.zshrc_lazy"'
-zinit light zdharma/null
+zinit light zdharma-continuum/null
