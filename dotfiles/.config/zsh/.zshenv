@@ -61,3 +61,9 @@ export XDG_RUNTIME_DIR="${XDG_RUNTIME_DIR:-"/tmp/runtime-$(id -u)"}"
 if [[ ! -d "${XDG_RUNTIME_DIR}" ]]; then
     command mkdir -m 700 -p -- "${XDG_RUNTIME_DIR}"
 fi
+
+# brew
+export PATH="${HOME}/.linuxbrew/bin:$PATH"
+. "${XDG_DATA_HOME}/poetry/env"
+# pyenv
+eval "$(pyenv init --path)"
